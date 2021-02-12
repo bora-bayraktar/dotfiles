@@ -1,12 +1,17 @@
 " Basic Configurations
-set background=dark
 set nocompatible
+set background=dark
+
+" Syntax and Indentation Configurations
 set number
 syntax on
 filetype indent on
 set expandtab
 set tabstop=4
 set shiftwidth=4
+
+set scrolloff=5 " Show 5 lines above and belowe cursor
+set mouse+=a " enable mouse
 
 " Keybindings
 map nn :bn!<cr>
@@ -53,6 +58,7 @@ let g:indentLine_char = '┊'
 " Autocommands
 autocmd VimEnter * IndentLinesReset
 autocmd InsertEnter,InsertLeave * set cul!
+autocmd VimEnter * silent exec "! echo -ne '\e[2 q'"
 
 " Cursor Settings
 let &t_SI = "\e[6 q" "SI = INSERT mode

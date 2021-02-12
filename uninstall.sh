@@ -2,7 +2,7 @@
 
 echo "Uninstalling dotfiles..."
 
-lst=( ".gitmodules" ".zsh" ".zshrc" ".vim" ".vimrc" ".tmux" ".tmux.conf" ".tmux_code.sh" ".dotfiles" )
+lst=( ".gitmodules" ".zsh" ".zshrc" ".vim" ".vimrc" ".tmux" ".tmux.conf" ".dotfiles" )
 
 for i in ${lst[@]}; do
     rm -rf "$HOME/$i"

@@ -11,6 +11,12 @@ export TERM='xterm-256color'
 # Colorful 'ls' output #
 export CLICOLOR=1
 
+# Cursor style and vi-mode #
+bindkey -v
+KEYTIMEOUT=1
+bindkey '^?' backward-delete-char
+source ~/.zsh/vi_mode.zsh 
+
 # Auto-suggestions #
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 bindkey '^k' autosuggest-accept
@@ -31,7 +37,14 @@ fi
 # Language setting #
 export LANG="en_US.UTF-8"
 
+# History #
+HISTSIZE=10000
+HISTFILE="$HOME/.zsh_history"
+SAVEHIST=$HISTSIZE
+setopt inc_append_history # Share history between different zsh sessions
+setopt share_history
+
 # Aliases #
 alias shpr='PROMPT="%B%F{34}%n@%m%f%F{15}:%f%F{32}%1~%f ${vcs_info_msg_0_}%F{15}\$%f%b "' # Shorter prompt
-alias tmux-code='sh ~/.tmux_code.sh'
+alias tmux-code='sh ~/.tmux/tmux_code.sh'
 alias ll="ls -la"

@@ -2,7 +2,7 @@
 
 echo "Installing dotfiles..."
 
-lst=( ".gitmodules" ".dotfiles" ".zsh" ".zshrc" ".vim" ".vimrc" ".tmux" ".tmux.conf" ".tmux_code.sh" )
+lst=( ".gitmodules" ".dotfiles" ".zsh" ".zshrc" ".vim" ".vimrc" ".tmux" ".tmux.conf" )
 
 for i in ${lst[@]}; do
     if [[ -d "$HOME/$i" ]]; then
@@ -28,7 +28,6 @@ cp -R $(pwd)/ ~/.dotfiles/
 
 ln -s ~/.dotfiles/tmux ~/.tmux
 ln -s ~/.dotfiles/tmux.conf ~/.tmux.conf
-ln -s ~/.dotfiles/tmux_code.sh ~/.tmux_code.sh
 ln -s ~/.dotfiles/vim ~/.vim
 ln -s ~/.dotfiles/vimrc ~/.vimrc
 ln -s ~/.dotfiles/zsh ~/.zsh
