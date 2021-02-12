@@ -24,7 +24,7 @@ Dotfiles for Zsh, Vim and Tmux.
    chmod +x install.sh
    ./install.sh
    ```
-4. Close and reopen the terminal. Now you can remove this repository. Dotfiles were installed into ```~/.dotfiles``` and symlinked into home directory. From now on, you can use this folder to manage your dotfiles.
+4. Close and reopen the terminal. Now you can remove this repository. Dotfiles were installed into ```~/.dotfiles``` and symlinked into home directory.
 
 **Warning:** Do not remove the ```~/.dot_backup``` directory. Your former dotfiles are stored in this directory. It will be used, while setting your older setup, if you uninstall dotfiles. 
 
