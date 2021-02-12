@@ -1,0 +1,60 @@
+[submodule "tmux/tmux-pain-control"]
+	path = tmux/tmux-pain-control
+	url = https://github.com/tmux-plugins/tmux-pain-control
+[submodule "vim/pack/plugins/start/auto-pairs"]
+	path = vim/pack/plugins/start/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs
+[submodule "vim/pack/plugins/start/completor.vim"]
+	path = vim/pack/plugins/start/completor.vim
+	url = https://github.com/maralla/completor.vim
+[submodule "vim/pack/plugins/start/darcula"]
+	path = vim/pack/plugins/start/darcula
+	url = https://github.com/blueshirts/darcula
+[submodule "vim/pack/plugins/start/edge"]
+	path = vim/pack/plugins/start/edge
+	url = https://github.com/sainnhe/edge
+[submodule "vim/pack/plugins/start/gruvbox"]
+	path = vim/pack/plugins/start/gruvbox
+	url = https://github.com/morhetz/gruvbox
+[submodule "vim/pack/plugins/start/indentLine"]
+	path = vim/pack/plugins/start/indentLine
+	url = https://github.com/Yggdroot/indentLine
+[submodule "vim/pack/plugins/start/nerdtree"]
+	path = vim/pack/plugins/start/nerdtree
+	url = https://github.com/preservim/nerdtree
+[submodule "vim/pack/plugins/start/nerdtree-devicons-syntax"]
+	path = vim/pack/plugins/start/nerdtree-devicons-syntax
+	url = https://github.com/vwxyutarooo/nerdtree-devicons-syntax
+[submodule "vim/pack/plugins/start/sonokai"]
+	path = vim/pack/plugins/start/sonokai
+	url = https://github.com/sainnhe/sonokai
+[submodule "vim/pack/plugins/start/syntastic"]
+	path = vim/pack/plugins/start/syntastic
+	url = https://github.com/vim-syntastic/syntastic
+[submodule "vim/pack/plugins/start/vim-airline"]
+	path = vim/pack/plugins/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "vim/pack/plugins/start/vim-airline-themes"]
+	path = vim/pack/plugins/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "vim/pack/plugins/start/vim-colors-xcode"]
+	path = vim/pack/plugins/start/vim-colors-xcode
+	url = https://github.com/arzg/vim-colors-xcode
+[submodule "vim/pack/plugins/start/vim-devicons"]
+	path = vim/pack/plugins/start/vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons
+[submodule "vim/pack/plugins/start/vim-fugitive"]
+	path = vim/pack/plugins/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "vim/pack/plugins/start/vim-hybrid"]
+	path = vim/pack/plugins/start/vim-hybrid
+	url = https://github.com/w0ng/vim-hybrid
+[submodule "vim/pack/plugins/start/vim-polyglot"]
+	path = vim/pack/plugins/start/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot
+[submodule "zsh/zsh-autosuggestions"]
+	path = zsh/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions
+[submodule "zsh/zsh-syntax-highlighting"]
+	path = zsh/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting
