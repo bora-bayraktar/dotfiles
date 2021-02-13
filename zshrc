@@ -26,6 +26,7 @@ source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ZSH_HIGHLIGHT_STYLES[command]='fg=red'
 ZSH_HIGHLIGHT_STYLES[builtin]='fg=red'
 ZSH_HIGHLIGHT_STYLES[alias]='fg=red'
+ZSH_HIGHLIGHT_STYLES[function]='fg=red'
 ZSH_HIGHLIGHT_STYLES[single-hyphen-option]='fg=57'
 ZSH_HIGHLIGHT_STYLES[double-hyphen-option]='fg=57'
 
@@ -48,3 +49,6 @@ setopt share_history
 alias shpr='PROMPT="%B%F{34}%n@%m%f%F{15}:%f%F{32}%1~%f ${vcs_info_msg_0_}%F{15}\$%f%b "' # Shorter prompt
 alias tmux-code='sh ~/.tmux/tmux_code.sh'
 alias ll="ls -la"
+
+# Functions #
+cs() { cd "$@" && ls -a }
