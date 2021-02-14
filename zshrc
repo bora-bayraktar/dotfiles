@@ -9,7 +9,11 @@ PROMPT='%B%F{34}%n@%m%f%F{15}:%f%F{33}%~%f ${vcs_info_msg_0_}%F{15}\$%f%b '
 export TERM='xterm-256color'
 
 # Colorful 'ls' output #
-export CLICOLOR=1
+if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+        alias ls="ls --color"
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+        export CLICOLOR=1
+fi
 
 # Cursor style and vi-mode #
 bindkey -v
