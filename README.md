@@ -90,5 +90,5 @@ Dotfiles for Zsh, Vim and Tmux.
 * ```nn``` next buffer when in Vim
 * ```mm``` previous buffer when in Vim
 * ```ctrl+u``` for moving right instead of using ```right arrow key``` to get out of brackets or quotation marks in Vim
-* ```w``` for ```5e``` in Vim
+* ```t``` for ```5e``` in Vim
 * ```ctrl+n``` to open and close NERDTree in Vim

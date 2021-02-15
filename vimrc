@@ -17,7 +17,7 @@ set mouse+=a " enable mouse
 map nn :bn!<cr>
 map mm :bp!<cr>
 imap <C-u> <right>
-nmap w 5e
+nmap t 5e
 
 " Syntastic Plugin Configurations
 set statusline+=%#warningmsg#
