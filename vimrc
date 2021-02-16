@@ -16,7 +16,7 @@ set mouse+=a " enable mouse
 " Keybindings
 map nn :bn!<cr>
 map mm :bp!<cr>
-imap <C-u> <right>
+imap <C-k> <right>
 nmap t 5e
 
 " Syntastic Plugin Configurations
