@@ -89,6 +89,7 @@ Dotfiles for Zsh, Vim and Tmux.
 * ```ctrl+k``` accepts zsh's auto-suggestion
 * ```nn``` next buffer when in Vim
 * ```mm``` previous buffer when in Vim
-* ```ctrl+k``` for moving right instead of using ```right arrow key``` to get out of brackets or quotation marks in Vim
+* ```ctrl+k``` for moving right instead of using ```right arrow key``` to get out of brackets or quotation marks in Vim insert mode
+* ```ctrl+j``` for moving left instead of using ```left arrow key``` in Vim insert mode
 * ```t``` for ```5e``` in Vim
 * ```ctrl+n``` to open and close NERDTree in Vim

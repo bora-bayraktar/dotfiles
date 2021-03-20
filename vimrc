@@ -17,6 +17,7 @@ set mouse+=a " enable mouse
 map nn :bn!<cr>
 map mm :bp!<cr>
 imap <C-k> <right>
+imap <C-j> <left>
 nmap t 5e
 
 " Syntastic Plugin Configurations
