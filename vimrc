@@ -12,6 +12,7 @@ set shiftwidth=4
 
 set scrolloff=5 " Show 5 lines above and belowe cursor
 set mouse+=a " enable mouse
+set clipboard=unnamed " Use system clipboard for copy
 
 " Keybindings
 map nn :bn!<cr>
