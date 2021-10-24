@@ -45,7 +45,7 @@ Dotfiles for Zsh, Vim and Tmux.
    
 ## Troubleshooting
 
-* You can install one of the [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts), if you have trouble with the font. [Here](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/JetBrainsMono/Regular/complete/JetBrains%20Mono%20Regular%20Nerd%20Font%20Complete%20Mono.ttf) is a suggested one.
+* You can install one of the [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts), if you have trouble with the font. [Here](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/Hack) is a suggested one.
   
   <details>
     <summary>Linux</summary>
