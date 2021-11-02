@@ -64,3 +64,7 @@
 [submodule "tmux/tmux-yank"]
 	path = tmux/tmux-yank
 	url = https://github.com/tmux-plugins/tmux-yank.git
+[submodule "vim/pack/plugins/start/vim-numbertoggle"]
+	path = vim/pack/plugins/start/vim-numbertoggle
+	url = https://github.com/jeffkreeftmeijer/vim-numbertoggle
+	branch = main
