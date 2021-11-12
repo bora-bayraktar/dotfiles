@@ -62,6 +62,7 @@ let g:indentLine_char = '┊'
 autocmd VimEnter * IndentLinesReset
 autocmd InsertEnter,InsertLeave * set cul!
 autocmd VimEnter * silent exec "! echo -ne '\e[2 q'"
+autocmd FileType make setlocal noexpandtab
 
 " Cursor Settings
 let &t_SI = "\e[6 q" "SI = INSERT mode
