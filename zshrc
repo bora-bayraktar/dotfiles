@@ -52,7 +52,7 @@ setopt share_history
 # Aliases #
 alias shpr='PROMPT="%B%F{34}%n@%m%f%F{15}:%f%F{32}%1~%f ${vcs_info_msg_0_}%F{15}\$%f%b "' # Shorter prompt
 alias tmux-code='sh ~/.tmux/tmux_code.sh'
-alias ll="ls -la"
+alias ll="ls -lha"
 
 # Functions #
 cs() { cd "$@" && ls -a }
