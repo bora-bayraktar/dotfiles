@@ -63,6 +63,12 @@ autocmd VimEnter * IndentLinesReset
 autocmd InsertEnter,InsertLeave * set cul!
 autocmd VimEnter * silent exec "! echo -ne '\e[2 q'"
 autocmd FileType make setlocal noexpandtab
+autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
+autocmd FileType css set omnifunc=csscomplete#CompleteCSS
+autocmd FileType html imap <c-x> <c-x><c-o>
+autocmd FileType html imap < <<c-x>
+autocmd FileType css imap <c-x> <c-x><c-o>
+autocmd FileType css imap : :<space><c-x>
 
 " Cursor Settings
 let &t_SI = "\e[6 q" "SI = INSERT mode

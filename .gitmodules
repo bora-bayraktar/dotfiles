@@ -68,3 +68,6 @@
 	path = vim/pack/plugins/start/vim-numbertoggle
 	url = https://github.com/jeffkreeftmeijer/vim-numbertoggle
 	branch = main
+[submodule "vim/pack/plugins/start/vim-closetag"]
+	path = vim/pack/plugins/start/vim-closetag
+	url = https://github.com/alvan/vim-closetag
