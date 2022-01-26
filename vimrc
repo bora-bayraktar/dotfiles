@@ -58,6 +58,9 @@ set statusline+=%{exists('g:loaded_fugitive')?fugitive#statusline():''}
 " Set IndentLine
 let g:indentLine_char = '┊'
 
+" vim-closetag Configurations
+let g:closetag_filenames = "*.html,*.xhtml,*.phtml,*.php,*.jsx,*.js"
+
 " Autocommands
 autocmd VimEnter * IndentLinesReset
 autocmd InsertEnter,InsertLeave * set cul!
